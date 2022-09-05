@@ -133,6 +133,7 @@ public class ReflectionUtil {
                 message += " (" + object.getClass() + ")";
             }
             throw new IllegalArgumentException(message, e);
+			//added a .
         }
 	}
 	
